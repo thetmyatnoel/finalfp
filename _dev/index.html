@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,user-scalable=yes" />
+    <title>FastPace</title>
+
+    <!-- css -->
+    <link rel="icon" href="images/main/fp1.png">
+    <link rel="stylesheet" href="css/css.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+  </head>
+
+  <body>
+    <div id="wrap" class="main">
+      <!-- header start -->
+      <header id="header">
+        <div class="layout">
+          <h1 class="header__logo">
+            <a href="#">
+              <img src="images/main/fpw.png" alt="FastPace" class="white" />
+              <img src="images/main/fplogo.png" alt="FastPace" class="color" />
+            </a>
+          </h1>
+          <nav id="gnb" >
+            <ul class="gnb__list">
+              <li class="gnb__item"><a href="#sec04">홈</a></li>
+              <li class="gnb__item"><a href="#sec03">회사소개</a></li>
+              <li class="gnb__item"><a href="#sec01">솔루션</a></li>
+              <li class="gnb__item"><a href="#sec05">서비스</a></li>
+              <li class="gnb__item"><a href="#sec07">고객지원</a></li>
+             
+            </ul>
+            <!--<a href="#sec07" class="header__btn">문의하기</a>-->
+          </nav>
+          
+        </div>
+      </header>
+      <!-- header end -->
+
+      <div id="main">
+        <section id="sec04">
+          <div id="sec04slider" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#sec04slider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#sec04slider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+            <!-- ... Your carousel indicators and controls ... -->
+            <div class="carousel-inner">
+              <!-- Slide 1 (sec041) -->
+              <div id="sec041" class="carousel-item active">
+                <div class="layout">
+                  <div class="sec041__wrap">
+                    <div class="sec041__con">
+                      <h1><b>"더 강력한 보안의 시작; 제로트러스트"</b></h1>
+                      <p><b>내부도 더이상 안전하지 않습니다.</b></p>
+                      <p><b>내부를 세분화하고, 끊임없이 검증하세요.</b></p>
+                      <p><b>"제로트러스트 보안에 대한 단계적인 접근"</b></p>
+                      <div class="subimg-container1">
+                        <img src="images/main/patrol001.png" alt="img1"/>
+                        <h4 id="sub1">로그인 이후, 실시간 행위없는 사용자 인증!</h4>
+                      </div>
+                      <div class="subimg-container2">
+                        <img src="images/main/arbiter002.png" class="subimg-container" alt="img2"/>
+                        <h4 id="sub2">마이크로세그먼트, 네트워크 미세구간, 내부네트워크 보안</h4>
+                      </div>
+                    </div>
+                    <div class="sec041__img">
+                      <img src="images/main/ma_1.png" alt="" />
+                    </div>
+                  </div>                  
+                </div>
+              </div>
+              <!-- ... Other slides ... -->
+              <div id="sec042" class="carousel-item">
+                <div class="layout">
+                  <div class="sec042__wrap">
+                    <div class="sec042__con">
+                      <h1><b>안전하고 전문적인 기업 네트워크 구축</b></h1>
+                      <p><b>비즈니스 성공을 위한 맞춤형 네트워크 구축</b></p>
+                      <p><b>ISP, 네트워크 보안컨설팅, 구축 및 회선 공사까지</b></p>
+                      <p><b>귀사의 네트워크 구축에 든든한 파트너가 되겠습니다.</b></p>
+                      <div class="subimg-container3">
+                        <img src="images/main/cisco.png" alt="cisco"/>
+                        <img src="images/main/zyxel.png" alt="img1"/>
+                        <img src="images/main/juniper.png" alt="img1"/>
+                        <img src="images/main/qnap.png" alt="img1"/>
+                        <img src="images/main/synolgy.png" alt="img1"/>
+                      </div>
+                    </div>
+                    <div class="sec042__img">
+                      <img src="images/main/ma_2.png" alt="" />
+                    </div>
+                  </div>                  
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#sec04slider" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#sec04slider" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+        
+        <section id="sec03" class="con">
+          <div class="layout">
+            <div class="con__img" data-aos="fade-up" data-aos-anchor="#sec03">
+              <img src="images/main/re2.png" alt="" />
+            </div>
+            <div class="con__text">
+              
+              <h3 class="con__title" data-aos="fade-down" data-aos-delay="600" data-aos-anchor="#sec03"><img src="images/main/fastpace2.png" alt=''/></h3>
+              <span class="con__title con__title--sm" data-aos="fade-down" data-aos-delay="400" data-aos-anchor="#sec03">(주) 페스트페이스</span>
+              <br><br>
+              <p class="con__desc" data-aos="fade-up" data-aos-delay="800" data-aos-anchor="#sec03">
+                보안이라는 말을 들으면 대부분의 사람들은 복잡하고 불편한 절차를 떠올리곤 합니다. <br>하지만 FastPace는 이러한 인식을 바꾸기 위해 노력하고 있습니다. <br>우리는 강력한 보안과 동시에 사용자 편의성을 제공하는 것이 가능하다고 믿습니다. <br>제로트러스트 보안 모델을 채택함으로써, 우리는 사용자가 느끼는 보안의 불편함을 최소화하면서도, 사이버 위협으로부터 완벽한 보호를 제공합니다. <br>이를 통해, FastPace는 강력한 보안이 곧 사용자의 불편을 의미하지 않음을 증명하고자 합니다.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section id="sec02">
+          <div class="layout">
+            <h3 class="con__title" data-aos="fade-down" data-aos-anchor="#sec02">혁신을 통한 완벽한 보안, 편리함으로 완성되는 기술</h3>
+            <p class="sec02__text" data-aos="fade-down" data-aos-delay="200" data-aos-anchor="#sec02">
+              <b>FastPace</b> 는 단순한 IT 솔루션을 넘어, 사용자 중심의 혁신적인 기술 경험을 제공합니다. 우리는 AI의 힘을 빌려 비즈니스 효율성을 극대화하고, <br>각 고객의 특성에 맞춘 맞춤형 네트워크 및 보안 컨설팅을 통해 신뢰할 수 있는 인프라를 구축합니다. <br>
+              <b>FastPace</b> 와 함께라면 복잡한 기술도 간편하고 직관적으로 이용할 수 있어, 귀사의 비즈니스는 보다 스마트하고 안전한 미래를 맞이할 준비가 되어 있습니다.<br />
+            </p>
+            <div class="sec02__con">
+              <div class="sec02__item">
+                <div class="sec02__item-img" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="800" data-aos-anchor="#sec02"><img src="images/main/i1.png" alt="" /></div>
+                <div class="sec02__item-text" data-aos="fade-up" data-aos-delay="1400" data-aos-anchor="#sec02">
+                  <h4>혁 신</h4>
+                  <p>"지속적인 연구와 개발을 통해 시장에서 가장 혁신적인 IT 솔루션을 제공합니다. 우리는 기술의 미래를 형성하고 있습니다."</p>
+                </div>
+              </div>
+              <div class="sec02__item">
+                <div class="sec02__item-img" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="900" data-aos-anchor="#sec02"><img src="images/main/i2.png" alt="" /></div>
+                <div class="sec02__item-text" data-aos="fade-up" data-aos-delay="1600" data-aos-anchor="#sec02">
+                  <h4>보 안</h4>
+                  <p>"보안은 우리의 최우선 과제입니다. 최신 암호화 기술과 포괄적인 보안 프로토콜로 귀사의 데이터를 안전하게 보호합니다."</p>
+                </div>
+              </div>
+              <div class="sec02__item">
+                <div class="sec02__item-img" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="1200" data-aos-anchor="#sec02"><img src="images/main/i3.png" alt="" /></div>
+                <div class="sec02__item-text" data-aos="fade-up" data-aos-delay="1800" data-aos-anchor="#sec02">
+                  <h4>편리함</h4>
+                  <p>"우리의 솔루션은 사용자 친화적인 디자인에 중점을 두어 언제 어디서나 쉽게 접근하고 사용할 수 있게 합니다. 복잡함 없이 보안을 경험하세요."</p>
+                </div>
+              </div>
+            </div>
+            <!--<div class="annotation" data-aos="fade" data-aos-duration="1400" data-aos-delay="2400" data-aos-anchor="#sec02">
+              <p class="annotation__word"><sup class="point">*</sup> NFT(Non-Fungible Token)</p>
+              <p class="annotation__desc">블록체인의 기술을 이용하여 증명되는 디지털 자산을 증명하는 토큰</p>
+            </div>-->
+          </div>
+        </section>
+       
+        <section id="sec01">
+          <div id="sec01slider" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#sec01slider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#sec01slider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+              <!-- Slide 1 (sec011) -->
+              <div id="sec011" class="carousel-item active">
+                <div class="layout">
+                  <div class="sec011__wrap">
+                      <div class="sec011__con">
+                          <h2><b>제로트러스트의 실현, </b></h2><br>
+                          <h3><b>“모든 로그인을 의심하고, 계속 검증하라"</b></h3>
+                          <img src="images/main/ar_logo.png" alt=""/>
+                          <p>
+                            
+                            실시간 지속 인증을 통해 강력한 보안과 사용자의 편의성을 동시에 제공합니다. <br>아비터는 사용자의 행위 없어도 지속적으로 보안을 강화하면서 사용성과의 완벽한 균형을 이룹니다
+                          </p>
+                          <div class="app__link-wrap1">
+                              <a href="https://fastpace.my.canva.site/patrol" class="app__link1">
+                                <p><strong>더 보기</strong></p>
+                              </a>
+                          </div>
+                      </div>
+                      <div class="sec011__img">
+                          <img src="images/main/ar_ma_img1.png" alt="" />
+                      </div>
+                  </div>
+              </div>
+              </div>
+              <!-- Slide 2 (sec012) -->
+              <div id="sec012" class="carousel-item">
+                <div class="layout">
+                  <div class="sec012__wrap">
+                      <div class="sec012__con">
+                          <h2>제로트러스트의 실현, </h2>
+                          <h3>네트워크 정찰을 통한 완벽한 보안</h3>
+                          <img src="images/main/patrol_1.png" >
+                          <p>
+                              취약한 내부 네트워크를 위한 트래픽 탐지 솔루션. <br>
+                              센서를 통한 실시간 트래픽 감시 및 침입 방지, <br>안티바이러스 엔진으로 내부 위협을 정밀하게 탐지하고 차단합니다.
+                          </p>
+                          <div class="app__link-wrap2">
+                              <a href="https://fastpace.my.canva.site/patrol#progress" class="app__link2">
+                                <p><strong>더 보기</strong></p>
+                              </a>
+                          </div>
+                      </div>
+                      <div class="sec012__img">
+                          <img src="images/main/pa_ma_img1.png" alt="" />
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Slide 3 (sec013) -->
+              <!--<div id="sec013" class="carousel-item">
+                <div class="layout">
+                  <div class="sec013__wrap">
+                      <div class="sec013__con">
+                          <h2>E-Mail 데이터 기반의 업무포탈 AI</h2>
+                          <h3>“e-Mail로 자동 학습, 혁신적인 업무 지원"</h3>
+                          <span>Commandi</span>
+                          <p>
+                            AI 업무 포털,  <br>
+                            이메일 데이터로 업무의 미래를 열다. <br> 학습된 나만의 AI업무 비서를 경험하세요.
+                          </p>
+                          <div class="app__link-wrap3">
+                              <a href="https://www.canva.com/design/DAFzvdI1nhU/cEtCl0Ip3ri6vpko27bxwQ/view?utm_content=DAFzvdI1nhU&utm_campaign=designshare&utm_medium=link&utm_source=editor" class="app__link3">
+                                  <p><strong>더 보기</strong></p>
+                              </a>
+                          </div>
+                      </div>
+                      <div class="sec013__img">
+                          <img src="../html/images/main/cmd_1.png" alt="" />
+                      </div>
+                  </div>
+                </div>
+              </div>-->
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#sec01slider" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#sec01slider" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+
+        <section id="sec05" class="con__box">
+          <div id="sec05slider" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+           <button type="button" data-bs-target="#sec05" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#sec05" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          </div>
+          <div class="carousel-inner">
+          <!-- Slide 1 (sec051) -->
+          <div id="sec051" class="carousel-item active">
+            <div class="layout">
+              <div class="con__img" data-aos="fade-right" data-aos-anchor="#sec05">
+                <img src="images/main/sv_1.png" alt="" />
+              </div>
+              <div class="con__text">
+                <span class="con__title con__title--sm" data-aos="fade-down" data-aos-delay="400" data-aos-anchor="#sec05"> 서비스 / 네트워크</span>
+                <h3 class="con__title" data-aos="fade-down" data-aos-delay="600" data-aos-anchor="#sec05">네트워크 보안 컨설팅 및 구축</h3>
+                <p class="con__desc" data-aos="fade-up" data-aos-delay="800" data-aos-anchor="#sec05">
+                  <b>맞춤형 네트워크 설계</b><br class="mo-none" />
+                  귀사만의 특화된 요구사항에 따른 개인화된 네트워크 설계.
+                  <br /><br />
+                  <b>전문 네트워크 공사</b><br class="mo-none" />
+                  안정적이고 확장 가능한 네트워크 인프라를 구축하는 전문 공사.
+                  <br /><br />
+                  <b>네트워크 진단 및 개선
+                  </b><br class="mo-none" />
+                  기존 시스템을 면밀히 분석하고, 실행 가능한 개선안을 제시합니다.
+                  <br /><br />
+                  <b>지속적인 유지보수
+                  </b><br class="mo-none" />
+                  네트워크의 성능과 안정성을 지속적으로 관리하고 보장합니다.
+            
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Slide 2 -->
+          <div id="sec052" class="carousel-item">
+            <div class="layout">
+              <div class="con__img" data-aos="fade-right" data-aos-anchor="#sec05">
+                <img src="images/main/sv2.png" alt="" />
+              </div>
+              <div class="con__text">
+                <span class="con__title con__title--sm" data-aos="fade-down" data-aos-delay="400" data-aos-anchor="#sec05">  서비스 / 보안컨설팅</span>
+                <h3 class="con__title" data-aos="fade-down" data-aos-delay="600" data-aos-anchor="#sec05">보안 컨설팅</h3>
+                <p class="con__desc" data-aos="fade-up" data-aos-delay="800" data-aos-anchor="#sec05">
+                  FastPace는 최신 보안 기술의 적용과 더불어 기존 레거시 환경에 대한 전문적인 보안 컨설팅을 제공합니다.<br><br>강력한 보안과 사용자 편의성을 모두 충족하는 제로트러스트 보안 솔루션을 통해, 기존 시스템의 보안 강화와 현대적 요구사항에 맞는 업그레이드를 도와드립니다. <br><br>FastPace와 함께라면, 기업은 과거의 보안 구조를 혁신적이고 효율적인 방식으로 개선할 수 있습니다.
+                </p>
+              </div>
+            </div>
+          </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#sec05slider" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#sec05slider" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+          </div>
+    
+        </section>
+
+        <section id="sec07">
+          <div class="layout">
+            <div class="con__text">
+              <div>
+                <span class="con__title con__title--sm" data-aos="fade-down" data-aos-anchor="#sec07">CONTACT</span>
+                <h3 class="con__title con__title--lg" data-aos="fade-down" data-aos-delay="200" data-aos-anchor="#sec07">
+                  강력한보안 , 편리함<br />
+                  <span>FastPace</span>와 함께 하세요!
+                </h3>
+              </div>
+              <div class="contact__btn-wrap" data-aos="fade-up" data-aos-delay="600" data-aos-anchor="#sec07">
+                <div class="contact__btn contact__btn--tel">
+                  <span class="contact__icon">
+                    <img src="images/main/icon_contact01.svg" alt="" />
+                  </span>
+                  <p>070-7918-0301</p>
+                </div>
+                <a href="mailto:thetmyatnoe.2017123@gmail.com" class="contact__btn contact__btn--mail">
+                  <span class="contact__icon">
+                    <img src="images/main/icon_contact02.svg" alt="" />
+                  </span>
+                  <p>yhseo@fastpace.kr</p>
+                </a>
+              </div>
+            </div>
+            <div class="con__form" data-aos="fade" data-aos-duration="1400" data-aos-delay="1200" data-aos-anchor="#sec07">
+              <form id="inquiryform" action="http://fastpace.kr:8080/submit-inquiry" method="post"> <!-- Modify this line -->
+                <div class="con__form-item incorrect">
+                  <label class="con__form-label">솔루션 구분*</label>
+                  <input type="text" name="category" placeholder="입력해주세요" />
+                </div>
+                <div class="con__form-item incorrect">
+                  <label class="con__form-label">회사명*</label>
+                  <input type="text" name="companyName" placeholder="입력해주세요" />
+                </div>
+                <div class="con__form-item">
+                  <label class="con__form-label">이름*</label>
+                  <input type="text" name="name" placeholder="입력해주세요" />
+                </div>
+                <div class="con__form-item">
+                  <label class="con__form-label">연락처*</label>
+                  <input type="text" name="contact" placeholder="000-000-000" />
+                </div>
+                <div class="con__form-item">
+                  <label class="con__form-label">이메일*</label>
+                  <input type="text" name="email" placeholder="example@email.co.kr" />
+                </div>
+                <div class="con__form-item last incorrect">
+                  <label class="con__form-label">문의*</label>
+                  <textarea name="inquiry" placeholder="문의내용을 입력해주세요."></textarea>
+                </div>
+                <div class="con__form-submit">
+                  <p class="check-style">
+                    <input type="checkbox" name="" id="c01" /><label for="c01"><a href="#" class="popup-open">개인정보수집 및 이용</a>에 동의합니다.</label>
+                  </p>
+                  <button type="submit" class="btn-style submit-popup-open text-light">문의하기</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        
+          </div>
+
+          <div class="popup__wrap">
+            <div class="popup__box">
+              <div class="popup__title">
+                <h2>개인정보 수집 및 이용안내</h2>
+                <button class="popup__close"><i class="xi-close"></i></button>
+              </div>
+              <div class="popup__con">
+                <div class="popup__con-text">
+                  <p>(주)페스트페이스는 원활한 고객상담, 각종 서비스의 제공을 위해 아래와 같은 개인정보를 수집하고 있습니다.</p>
+                  <ul class="dot-list">
+                    <li>수집방법 : 제품 문의</li>
+                    <li>수집항목 : (필수) 구분, 회사명,이름,연락처, 이메일, 문의</li>
+                    <li>수집 및 이용목적 : 제품 문의를 위한 식별 정보</li>
+                  </ul>
+                  <h3>개인정보의 보유 및 이용기간</h3>
+                  <p>
+                    (주)페스트페이스는 자료 다운로드일로부터 서비스에 대한 안내를 제공하는 기간 동안에 한하여 이용자의 개인정보를 보유 및 이용하게 됩니다. 개인정보 파기요청 및 개인정보의 수집 및 이용에 대한 동의를 철회하는 경우, 수집 및 이용목적이 달성되거나 보유 및 이용기간이 종료한 경우 해당
+                    개인정보를 지체 없이 파기합니다.<br />
+                    단, 다음의 정보에 대해서는 아래의 이유로 명시한 기간 동안 보존합니다.
+                  </p>
+                  <ul class="dot-list">
+                    <li>보존항목 : (필수) 구분, 회사명,이름,연락처, 이메일, 문의</li>
+                    <li>보존근거 : 서비스 이용의 혼선 방지, 불법적 사용자에 대한 관련 기관 수사협조</li>
+                    <li>보존기간 : 6개월</li>
+                  </ul>
+                  <p>그리고 관계법령의 규정에 의하여 보존할 필요가 있는 경우 회사는 아래와 같이 관계법령에서 정한 일정한 기간 동안 회원정보를 보관합니다.</p>
+                  <ul class="abc-list">
+                    <li>
+                      가. 서비스 이용 관련 개인정보(서비스 이용기록, 접속로그, 접속 IP 정보)
+                      <ul class="dash-list">
+                        <li>보존 근거 : 통신비밀보호법</li>
+                        <li>보존 기간 : 3개월</li>
+                      </ul>
+                    </li>
+                    <li>
+                      나. 표시/광고에 관한 기록
+                      <ul class="dash-list">
+                        <li>보존 근거 : 전자상거래 등에서의 소비자보호에 관한 법률 시행령</li>
+                        <li>보존 기간 : 6개월</li>
+                      </ul>
+                    </li>
+                    <li>
+                      다. 계약 또는 청약철회 등에 관한 기록
+                      <ul class="dash-list">
+                        <li>보존 근거 : 전자상거래 등에서의 소비자보호에 관한 법률 시행령</li>
+                        <li>보존 기간 : 5년</li>
+                      </ul>
+                    </li>
+                    <li>
+                      라. 대금결제 및 재화 등의 공급에 관한 기록
+                      <ul class="dash-list">
+                        <li>보존 근거 : 전자상거래 등에서의 소비자보호에 관한 법률 시행령</li>
+                        <li>보존 기간 : 5년</li>
+                      </ul>
+                    </li>
+                    <li>
+                      마. 소비자의 불만 또는 분쟁처리에 관한 기록
+                      <ul class="dash-list">
+                        <li>보존 근거 : 통신비밀보전자상거래 등에서의 소비자보호에 관한 법률 시행령호법</li>
+                        <li>보존 기간 : 3개월</li>
+                      </ul>
+                    </li>
+                    <li>
+                      바. 본인확인에 관한 기록
+                      <ul class="dash-list">
+                        <li>보존 근거 : 정보통신망 이용촉진 및 정보보호 등에 관한 법률</li>
+                        <li>보존 기간 : 6개월</li>
+                      </ul>
+                    </li>
+                    <h4>동의를 거부할 권리 및 동의 거부에 따른 안내</h4>
+                    <p>이용자는 개인정보 수집 및 이용 동의를 거부할 권리가 있습니다. 다만 개인정보 수집 및 이용 동의를 거부하실 경우 가입 요청하신 서비스 이용이 제한되거나 불가할 수 있습니다</p>
+                  </ul>
+                </div>
+                <button class="popup__btn btn-style">확인</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="submit-popup__wrap">
+            <div class="submit-popup__box">
+              <button class="submit-popup__close"><i class="xi-close"></i></button>
+              <div class="submit-popup__con">
+                <h4 class="submit-popup__title">
+                  입력하신 정보로<br />
+                  문의를 등록하시겠습니까?
+                </h4>
+              </div>
+              <div class="submit-popup__btn-wrap">
+                <button class="submit-popup__btn submit-popup__btn--cancel">취소</button>
+                <button  class="submit-popup__btn submit-popup__btn--check">확인</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+    
+      </div>
+
+      <!-- footer start -->
+      <footer id="footer">
+        <div class="layout">
+          <h6>(주) 페스트페이스</h6>
+          <div class="footer__info">
+            <address class="footer__info-item">서울시 강남구 논현로 76길 가람빌딩 2층</address>
+            <p class="footer__info-item">대표자명: 서양환</p>
+          </div>
+          <p class="footer__copy">©2023 FastPace. All Rights Reserved.</p>
+        </div>
+        <button class="top__btn">
+          <i class="xi-arrow-up"></i>
+        </button>
+      </footer>
+      <!-- footer end -->
+    </div>
+  </body>
+</html>

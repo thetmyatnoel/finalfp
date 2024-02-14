@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+$xe: "xeicon";
+
+$pur: #6B00BF;
+$sky: #31E5F7;
+
+@mixin layout($width) {
+  position: relative;
+  max-width: $width + rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@mixin flexCt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flexBt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin absCt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@mixin absLt {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+@mixin absRt {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+@mixin lineHt($f-size, $l-height) {
+  line-height: $l-height / $f-size;
+}
