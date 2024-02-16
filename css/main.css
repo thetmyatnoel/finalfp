@@ -846,14 +846,6 @@ sup.point {
   gap: 11vw; 
   margin-right: 35vw;  
 }
-#sec04 .sec042__con > p {
-  font-size: 2rem;
-  animation: fade-in-top 0.8s 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  line-height: 1;
-  padding-left: 5rem;
-  color: #253237;
-}
-
 #sec04 .sec041__img {
   position: absolute;
   top: 7rem;
@@ -873,10 +865,10 @@ sup.point {
 
 
 #sec04 .sec041__img img {
-  margin-top: 10rem;
-  margin-left: 35rem;
-  max-width: 50%;
-  max-height: 60%;
+  margin-top: 7rem;
+  margin-left: 40rem;
+  max-width: 70%;
+  max-height: 70%;
 }
 #sec04 .sec042__img img {
   margin-top: 10rem;
